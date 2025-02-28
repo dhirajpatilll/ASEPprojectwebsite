@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteering and Exploration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Login Page -->
+  <div id="loginPage">
+    <header>
+      <h1>Volunteering and Exploration</h1>
+      <p>Explore the world, Empower lives!</p>
+    </header>
+    <div class="container">
+      <section id="login">
+        <h2>Login</h2>
+        <form id="loginForm">
+          <input type="text" id="username" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2024 Volunteering and Exploration | All Rights Reserved</p>
+    </footer>
+  </div>
+
+  <!-- Home Page (Hidden by default) -->
+  <div id="homePage" style="display: none;">
+    <header>
+      <h1>Volunteering and Exploration</h1>
+      <p>Explore the world, Empower lives!</p>
+    </header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#opportunities">Opportunities</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+      <section id="about">
+        <h2>About Voluntourism and Exploration</h2>
+        <p>
+          The Vision: At our website, we envision a world where hearts unite and hands reach out to uplift communities in need. Our vision is to create a global family of compassionate individuals who are inspired and empowered to make a positive difference through volunteer tourism. We imagine a world where human connections are cherished, cultural diversity is celebrated, and collective action creates a ripple effect of love and kindness.
+        </p>
+      </section>
+      <section id="opportunities">
+        <h2>Volunteering and Exploration Opportunities</h2>
+        <div class="opportunities">
+          <div class="opportunity">
+            <h3>Volunteer in Himachal</h3>
+            <p>Himachal is your spot if you want to lend a hand in a lively mountain community. Dive into colorful festivals, make friends, and leave a positive impact while surrounded by stunning views.</p>
+          </div>
+          <div class="opportunity">
+            <h3>Volunteer in Uttarakhand</h3>
+            <p>Here you'll help preserve breathtaking nature and soak up the peaceful vibes of the Garhwal & Kumaon region. It's like giving back while getting a spiritual recharge!</p>
+          </div>
+          <div class="opportunity">
+            <h3>Explore Pongal in Tamil Nadu</h3>
+            <p>Pongal is a four-day harvest festival in Tamil Nadu, celebrating the sun god and agricultural prosperity with rituals, special dishes, cattle worship, and family reunions. Let's celebrate with locals.</p>
+          </div>
+          <div class="opportunity">
+            <h3>Explore Diwali in Ayodhya</h3>
+            <p>Let's celebrate Diwali in Ayodhya, the birthplace of Lord Rama, with grand festivities, illuminated ghats, and vibrant cultural performances. Experience the magic of thousands of diyas lighting up the city, symbolizing the triumph of good over evil.</p>
+          </div>
+        </div>
+      </section>
+      <section id="go-ahead">
+        <button onclick="showPage('interestPage')">Go Ahead</button>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2024 Volunteering and Exploration | All Rights Reserved</p>
+    </footer>
+  </div>
+
+  <!-- Interest Form Page (Hidden by default) -->
+  <div id="interestPage" style="display: none;">
+    <header>
+      <h1>Volunteering and Exploration</h1>
+      <p>Explore the world, Empower lives!</p>
+    </header>
+    <div class="container">
+      <section id="interest-form">
+        <h2>Tell Us About Yourself</h2>
+        <form id="interestForm">
+          <input type="text" id="interests" placeholder="Your Interests" required />
+          <input type="text" id="hobbies" placeholder="Your Hobbies" required />
+          <input type="text" id="places" placeholder="Preferred Places" required />
+          <input type="number" id="days" placeholder="Duration of Stay (in days)" required />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2024 Volunteering and Exploration | All Rights Reserved</p>
+    </footer>
+  </div>
+
+  <!-- Options Page (Hidden by default) -->
+  <div id="optionsPage" style="display: none;">
+    <header>
+      <h1>Volunteering and Exploration</h1>
+      <p>Explore the world, Empower lives!</p>
+    </header>
+    <div class="container">
+      <section id="options">
+        <h2>Available Volunteer Options</h2>
+        <div id="optionsList"></div>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2024 Volunteering and Exploration | All Rights Reserved</p>
+    </footer>
+  </div>
+
+  <!-- Thank You Page (Hidden by default) -->
+  <div id="thanksPage" style="display: none;">
+    <header>
+      <h1>Volunteering and Exploration</h1>
+      <p>Explore the world, Empower lives!</p>
+    </header>
+    <div class="container">
+      <section id="thank-you">
+        <h2>Thank You!</h2>
+        <div id="thank-you-message"></div>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2024 Volunteering and Exploration | All Rights Reserved</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
